@@ -293,28 +293,6 @@ Mohon informasi lebih lanjut. Terima kasih.
                   </ul>
                 </div>
               )}
-              {/* ===== SATUAN KEMASAN END ===== */}
-
-              <div className="flex flex-wrap justify-between gap-5 mt-6 mb-7.5">
-                <div>
-                  <span className="flex items-center gap-2">
-                    {/* Price rendering logic */}
-                  </span>
-                </div>
-              </div>
-              {product.kemasan && product.kemasan.length > 0 && (
-                <div className="mt-6 border-t border-gray-200 pt-6">
-                  <h4 className="font-semibold text-base text-dark mb-3">
-                    Satuan Kemasan
-                  </h4>
-                  <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-                    {product.kemasan.map((item, index) => (
-                      <li key={index}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-              {/* ===== SATUAN KEMASAN END ===== */}
 
               <div className="flex flex-wrap justify-between gap-5 mt-6 mb-7.5">
                 {/* --- AWAL: Tombol WhatsApp --- */}
